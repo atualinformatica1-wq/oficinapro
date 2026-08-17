@@ -1,0 +1,1 @@
+ALTER TABLE public.inventory_items ADD COLUMN IF NOT EXISTS compatibility jsonb NOT NULL DEFAULT '[]'::jsonb;
